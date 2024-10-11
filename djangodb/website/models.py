@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class member(models.Model):
+class Member(models.Model):
     fname = models.CharField(max_length=50)
     lname = models.CharField(max_length=100)  # Corrected field name
     email = models.EmailField(max_length=200)
